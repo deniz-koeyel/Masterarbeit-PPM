@@ -1,0 +1,21 @@
+# Python / Jupyter Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual Environments (falls du lokal arbeitest)
+venv/
+env/
+.env
+
+# Datensätze (Extrem wichtig für deine Arbeit!)
+# So verhinderst du, dass GB-große CSV/XES Dateien hochgeladen werden
+*.csv
+*.xes
+*.gzip
+data/
+
+# OS generierte Dateien
+.DS_Store
+Thumbs.db
